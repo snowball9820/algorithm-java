@@ -13,7 +13,9 @@ public class Main {
         long max = 0;
 
         for (int i = 0; i < N; i++) {
-            if (A[i] > max) max = A[i];
+            if (A[i] > max) {
+                max = A[i];
+            }
             sum = sum + A[i];
         }
         System.out.println(sum * 100.0 / max / N);
