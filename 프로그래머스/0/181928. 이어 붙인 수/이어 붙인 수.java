@@ -12,6 +12,6 @@ class Solution {
             }
         }
         answer=Integer.parseInt(even)+Integer.parseInt(odd);
-        return answer;
+        return answer;//안녕
     }
 }
