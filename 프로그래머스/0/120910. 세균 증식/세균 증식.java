@@ -1,9 +1,11 @@
+import java.util.*;
+
 class Solution {
     public int solution(int n, int t) {
-        
-        for(int i=0; i<t; i++){
-            n*=2;
-        }
-        return n;
+        int answer = 1;
+
+        answer = n * (int)Math.pow(2, t);
+
+        return answer;
     }
 }
